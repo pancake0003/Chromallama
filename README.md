@@ -1,0 +1,2 @@
+# Chromallama
+ chromadb and ollama
