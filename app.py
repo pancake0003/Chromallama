@@ -49,5 +49,13 @@ iface = gr.Interface(fn=process_input,
                      description="Enter URLs and a question to query the documents.")
 iface.launch()
 
+# https://manual.sensorsdata.cn/sa/2.5/zh_cn/gettingstart-181272595.html
+# https://manual.sensorsdata.cn/sa/2.5/zh_cn/access-22249875.html
+# https://manual.sensorsdata.cn/sa/2.5/zh_cn/guide-127172823.html
+# https://manual.sensorsdata.cn/sa/2.5/zh_cn/tech-1573416.html
+# https://manual.sensorsdata.cn/sa/2.5/zh_cn/example-7551449.html
+# https://manual.sensorsdata.cn/sa/2.5/zh_cn/question-111247459.html
+# https://manual.sensorsdata.cn/sa/2.5/zh_cn/update_log-1573501.html
+# https://manual.sensorsdata.cn/sa/2.5/zh_cn/support-94273640.html
 # https://ollama.com/
 # https://ollama.com/blog/
