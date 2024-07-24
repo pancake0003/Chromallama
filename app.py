@@ -1,7 +1,7 @@
 import gradio as gr
 from langchain_community.document_loaders import WebBaseLoader, PyPDFLoader
 from langchain_community.vectorstores import Chroma
-from langchain_community.embeddings import HuggingFaceEmbeddings  # Use an alternative embedding
+from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_community.chat_models import ChatOllama
 from langchain_core.runnables import RunnablePassthrough
 from langchain_core.output_parsers import StrOutputParser
@@ -11,7 +11,7 @@ from langchain.text_splitter import CharacterTextSplitter
 
 def process_input(urls, question):
     # can switch to llama3 and try
-    model_local = ChatOllama(model="mistral")
+    model_local = ChatOllama(model="llama3")
     
     # Convert string of URLs to list
     urls_list = urls.split("\n")
